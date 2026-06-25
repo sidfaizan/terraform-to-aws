@@ -2,9 +2,9 @@ terraform {
 
   backend "s3" {
 
-    bucket = "my-terraform-state-bucket"
+    bucket = "my-eks-state-bucket-faizan "
     key = "eks/terraform.tfstate"
-    region = "us-east-1"
+    region = "ap-south-2"
     use_lockfile = true
     encrypt = true
   }
